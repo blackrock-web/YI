@@ -1,0 +1,6 @@
+{
+  "name": "MY AI",
+  "description": "A private, local-first personal AI assistant and companion built with custom models from scratch.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,30 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# MY AI Local Private Runtime Data
+data/database/*.db
+data/database/*.sqlite
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/audit/*.jsonl
+training/checkpoints/*.pt
+training/checkpoints/*.json
+
